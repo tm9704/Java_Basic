@@ -30,10 +30,12 @@ public class Student {
 	}
 	
 	public int getStudentID() {
+		serialNum++;
 		return studentID;
 	}
 
-	public int getSerialNum() {
+	public static int getSerialNum() {
+		int i = 0;
 		return serialNum;
 	}
 
