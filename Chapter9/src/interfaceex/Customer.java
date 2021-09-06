@@ -12,16 +12,16 @@ public class Customer implements Buy, Sell{
  		System.out.println("customer buy");
  	}
 
+// 	@Override
+// 	public void order() {
+// 		System.out.println("customer order");
+// 	}
+
  	@Override
  	public void order() {
- 		System.out.println("customer order");
+ 		// TODO Auto-generated method stub
+ 		Buy.super.order();
  	}
-
- //	@Override
- //	public void order() {
- //		// TODO Auto-generated method stub
- //		Buy.super.order();
- //	}
 
  	public void sayHello() {
  		System.out.println("hello");

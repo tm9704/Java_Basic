@@ -7,7 +7,7 @@ public class Student {
 	int studentID;
 	String studentName;
 	
-	//Command + Shift + O
+	//Command + Shift + O import key
 	ArrayList<Subject> subjectList;
 	
 	public Student(int studentID, String studentName) {

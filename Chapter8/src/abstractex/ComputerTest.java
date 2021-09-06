@@ -8,6 +8,8 @@ public class ComputerTest {
 		computer.turnOff();
 		
 		Computer computer2 = new MyNoteBook();
+		computer2.display();
+		computer2.turnOff();
 		
 	}
 }

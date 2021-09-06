@@ -13,6 +13,7 @@ public class AICar extends Car{
 		System.out.println("스스로 멈춥니다.");
 	}
 	
+	@Override
 	public void washCar() {
 		System.out.println("자동 세차 합니다.");
 	}

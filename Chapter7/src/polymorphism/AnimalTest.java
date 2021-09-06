@@ -100,5 +100,6 @@ public class AnimalTest {
 	public void moveAnimal(Human animal) {
 		animal.move();
 	}
+	//위는 다형성에 반하는 사례 이렇게 여러개를 만들어야됨 다형성을 사용하지 않으면.
 
 }

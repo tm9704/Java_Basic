@@ -30,7 +30,7 @@ public class Student {
 	}
 	
 	public int getStudentID() {
-		serialNum++;
+//		serialNum++;
 		return studentID;
 	}
 
